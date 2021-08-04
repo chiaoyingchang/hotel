@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> about </title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- 今天的style寫在css中  因為範例網頁有五頁 -->
+    
+<script>
+
+</script>
+    
+</head>
+
+<body>
+    <!-- 用+號可以一次製作主要的標籤  -->
+    <!-- ex: header+nav+.banner+.main+footer 之後再按tab 或 enter -->
+    <!-- main這個指令 ie有嚴格的規定 所以可以的情況下不直接用 main -->
+    <!-- 可以用其他指令代替 或是將它放進div裡面來避開ie的規範 -->
+
+    <header>
+        <img src="./images/logo.png" alt="logo">
+        <p>Traditionally Royal hotel</p>
+
+        <!-- =====for rwd時需要用到的左上導覽小icon=== -->
+        <i class="fa fa-bars" aria-hidden="true" onclick="document.getElementById('navid').style.display='block'" ></i>
+
+
+    </header>
+    <!-- =====要給nav id名稱 才能寫程式===== -->
+    <nav id="navid">
+        <a href="./index.html">最新的消息 <span>NEWS</span></a>
+        <a href="./about.html" class="active">關於蒂莫絲 <span>ABOUT</span></a>
+        <a href="./room.html">客房的服務 <span>ROOM</span></a>
+        <a href="./location.html">我們的位置 <span>LOCATION</span></a>
+        <a href="./contact.html">聯絡蒂莫絲 <span>CONTACT</span></a>
+
+        <!-- ======for rwd的小icon nav要給id才能加程式====== -->
+        <i class="fa fa-times" aria-hidden="true" onclick="document.getElementById('navid').style.display='none'" ></i>
+
+    </nav>
+
+    <div class="banner">
+        <img src="./images/banner1.jpg" alt="banner">
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="content">
+            <h1>關於蒂莫絲</h1>
+
+            <div class="aboutlist">
+            <h2> <img src="./images/book_open.png" alt=""><span>蒂莫絲的經營理念</span></h2>
+
+            <p>蒂莫絲的經營理念，為了讓旅遊者感受到愉快的服務，擁有著舒服的休憩以及溫暖的睡眠，強調工作人員必須有專業領域的訓練，強調飯店中的環境必須有絕對的衛生與安全。在衛生清潔方面，公共區域每隔六小時會酒精擦拭一遍，客人住房期間每天打掃一次，退房後會全部清潔消毒一遍。在安全方面，所有出入口區域24小時錄影監控，並且與警署單位連線。
+            </p>
+
+            <h2><img src="./images/book_open.png" alt=""><span>蒂莫絲的公共服務</span></h2>
+
+            <ul>
+                <li><span>1、免費wifi</span>：全館皆為免密碼無線網路wifi。</li>
+                <li><span>2、洗烘衣機</span>：提供免費自助式洗、烘衣機。</li>
+                <li><span>3、豐富早餐</span>：飯粥、湯品、煎蛋、熱炒青菜、素食、麵包、飲料、水果。</li>
+                <li><span>4、旅遊資料</span>：提供附近旅遊相關資訊。</li>
+            </ul>
+
+            <h2><img src="./images/book_open.png" alt=""><span>蒂莫絲的客房設備</span></h2>
+
+            <p>飯店房間的基本設備包括床、衣櫃、沙發、茶几、亦設有電話、電視、鬧鐘；並有冰箱，內有各種飲料、酒類及小食，全部需額外收費（有飯店例外），在結帳時繳付。房間亦備有熱水瓶（或電熱水壺）、水杯及即溶咖啡、茶包、奶精、砂糖等供住客免費使用。除了十分便宜的飯店外，房內通常都設有獨立浴室，內有坐廁、浴缸及淋浴設備。現在越來越多飯店設有WIFI及網際網路接駁服務，採免費或需額外收費。
+            </p>
+
+            <h2><img src="./images/book_open.png" alt=""><span>蒂莫絲的入住注意事項</span></h2>
+
+            <ul>
+                <li>1、入住時間為下午3:00後，退房時間為中午11:00前。</li>
+                <li>2、飯店備有機械式停車位，車位有限，恕無提供保留或預約車位之服務。</li>
+                <li>3、客房內裝擺設以實際入住房型為主，圖片僅提供參考。</li>
+               
+            </ul>
+
+            
+
+        </div>
+
+        </div>
+
+        <div class="aside">
+            <img src="./images/h2img.png" alt="">
+            <h2>
+                優越的品質●竭誠的服務
+            </h2>
+            <img class="ADimg" src="./images/aside/about_1.jpg" alt="">
+            <img class="ADimg" src="./images/aside/about_2.jpg" alt="">
+            <img class="ADimg" src="./images/aside/about_3.jpg" alt="">
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+
+    <footer>
+        <p>Copyright © 2021 Timothy Hotel. All rights reserved. Related images from 123RF Maintain by TS</p>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

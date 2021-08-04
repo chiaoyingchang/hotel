@@ -1,0 +1,54 @@
+.aboutlist h2{
+background-image: url(../images/about_line.png);
+background-repeat: no-repeat;
+background-position: center 1.3em;
+margin-left: 0.5em;
+margin-bottom: 10PX;
+}
+
+.aboutlist h2 span{
+    background: #ffffff;
+    padding:0px 8px;
+
+}
+
+.aboutlist h2:not(:first-of-type) { margin-top: 40px;}
+
+
+
+
+.aboutlist h2 img
+{width: 1.8em;
+margin-right: 10px;
+transform: translateY(0.5em);
+
+}
+
+
+.aboutlist p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 1.5em;}
+
+.aboutlist ul{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 1.5em;
+    list-style: none;
+}
+
+.aboutlist ul span
+{display: inline-block;
+    width: 6em;
+}
+
+/* =====copy sir===== */
+@media( max-width: 700px ){
+    .aboutlist { margin: 0; }
+    .aboutlist h2 { 
+      font-size: 1.2em; 
+      background-image: none;
+    }
+  }

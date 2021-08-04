@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> contact </title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- 今天的style寫在css中  因為範例網頁有五頁 -->
+
+</head>
+
+<body>
+    <!-- 用+號可以一次製作主要的標籤  -->
+    <!-- ex: header+nav+.banner+.main+footer 之後再按tab 或 enter -->
+    <!-- main這個指令 ie有嚴格的規定 所以可以的情況下不直接用 main -->
+    <!-- 可以用其他指令代替 或是將它放進div裡面來避開ie的規範 -->
+
+    <header>
+        <img src="./images/logo.png" alt="logo">
+        <p>Traditionally Royal hotel</p>
+
+        <!-- =====for rwd時需要用到的左上導覽小icon=== -->
+        <i class="fa fa-bars" aria-hidden="true" onclick="document.getElementById('navid').style.display='block'" ></i>
+
+
+    </header>
+
+    <nav id="navid">
+        <a href="./index.html">最新的消息 <span>NEWS</span></a>
+        <a href="./about.html">關於蒂莫絲 <span>ABOUT</span></a>
+        <a href="./room.html">客房的服務 <span>ROOM</span></a>
+        <a href="./location.html">我們的位置 <span>LOCATION</span></a>
+        <a href="./contact.html" class="active">聯絡蒂莫絲 <span>CONTACT</span></a>
+
+    </nav>
+
+    <div class="banner">
+        <img src="./images/banner1.jpg" alt="banner">
+
+
+
+    </div>
+
+
+
+
+    <div class="main">
+
+        <div class="content">
+            <h1>聯絡蒂莫絲</h1>
+
+
+            <p>
+
+                <a class="button"
+                    href="https://docs.google.com/forms/d/1XYLfU9Qg452BfkqMEHGHoGKIwvhS67NVhisio46c_Es/edit">
+                    <i class="fas fa-hand-point-right"></i>
+                    前往留言表單
+                </a>
+
+            </p>
+
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeE9kgEj6QtCKkdFgrS_RIL5wzDNw92jmXxfN3raxLbPeFfeQ/viewform?embedded=true"
+                width="100%" height="953" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+
+
+
+        </div>
+
+        <div class="aside">
+            <h2>
+                優美的環境●愉快的渡假
+            </h2>
+
+            <img class="ADimg" src="./images/aside/contact_1.jpg" alt="">
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p>Copyright © 2021 Timothy Hotel. All rights reserved. Related images from 123RF Maintain by TS</p>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

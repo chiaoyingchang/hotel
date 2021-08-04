@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> location </title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- 今天的style寫在css中  因為範例網頁有五頁 -->
+
+</head>
+
+<body>
+    <!-- 用+號可以一次製作主要的標籤  -->
+    <!-- ex: header+nav+.banner+.main+footer 之後再按tab 或 enter -->
+    <!-- main這個指令 ie有嚴格的規定 所以可以的情況下不直接用 main -->
+    <!-- 可以用其他指令代替 或是將它放進div裡面來避開ie的規範 -->
+
+    <header>
+        <img src="./images/logo.png" alt="logo">
+        <p>Traditionally Royal hotel</p>
+
+        <!-- =====for rwd時需要用到的左上導覽小icon=== -->
+        <i class="fa fa-bars" aria-hidden="true" onclick="document.getElementById('navid').style.display='block'" ></i>
+    </header>
+
+    <nav id="navid">
+        <a href="./index.html">最新的消息 <span>NEWS</span></a>
+        <a href="./about.html">關於蒂莫絲 <span>ABOUT</span></a>
+        <a href="./room.html">客房的服務 <span>ROOM</span></a>
+        <a href="./location.html" class="active">我們的位置 <span>LOCATION</span></a>
+        <a href="./contact.html">聯絡蒂莫絲 <span>CONTACT</span></a>
+
+    </nav>
+
+    <div class="banner">
+        <img src="./images/banner1.jpg" alt="banner">
+
+
+
+    </div>
+
+
+
+
+    <div class="main">
+
+        <div class="content">
+            <h1>我們的位置</h1>
+
+            <iframe class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.773757904081!2d121.54820331448116!3d25.041750844135795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abc51252ecf5%3A0x400a88d32c96dbb!2z5beo5Yyg6Zu76IWmLeadseWNgOiqjeitiSB8IOWtuOmbu-iFpuiqsueoiyB8IOmbu-iFpuijnOe_kuePrQ!5e0!3m2!1szh-TW!2stw!4v1621500404638!5m2!1szh-TW!2stw"
+                width="600" height="450"  allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+       
+        <div class="aside">
+            <h2>
+                舒適的環境●便利的交通
+            </h2>
+
+            <img class="ADimg" src="./images/aside/location_1.jpg" alt="">
+            <img class="ADimg" src="./images/aside/location_2.jpg" alt="">
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p>Copyright © 2021 Timothy Hotel. All rights reserved. Related images from 123RF Maintain by TS</p>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

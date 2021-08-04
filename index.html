@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> index </title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- 今天的style寫在css中  因為範例網頁有五頁 -->
+
+</head>
+
+<body>
+    <!-- 用+號可以一次製作主要的標籤  -->
+    <!-- ex: header+nav+.banner+.main+footer 之後再按tab 或 enter -->
+    <!-- main這個指令 ie有嚴格的規定 所以可以的情況下不直接用 main -->
+    <!-- 可以用其他指令代替 或是將它放進div裡面來避開ie的規範 -->
+
+    <header>
+        <img src="./images/logo.png" alt="logo">
+        <p>Traditionally Royal hotel</p>
+        <!-- =====for rwd時需要用到的左上導覽小icon=== -->
+        <i class="fa fa-bars" aria-hidden="true" onclick="document.getElementById('navid').style.display='block'" ></i>
+
+
+    </header>
+
+    <nav id="navid">
+        <a href="./index.html" class="active">最新的消息 <span>NEWS</span></a>
+        <a href="./about.html">關於蒂莫絲 <span>ABOUT</span></a>
+        <a href="./room.html">客房的服務 <span>ROOM</span></a>
+        <a href="./location.html">我們的位置 <span>LOCATION</span></a>
+        <a href="./contact.html">聯絡蒂莫絲 <span>CONTACT</span></a>
+
+    </nav>
+
+    <div class="banner">
+        <img src="./images/banner1.jpg" alt="banner">
+
+ 
+
+    </div>
+
+    <div class="main">
+
+        <div class="content">
+            <h1>最新的消息</h1>
+
+            <!-- ======index主要內容====== -->
+        <img class="new"src="./images/new.png" alt="">
+        
+        <img class="card" src="./images/index/card1.png" alt="">
+        <img class="card2" src="./images/index/card2.png" alt="">
+        <img class="card" src="./images/index/card3.png" alt="">
+        
+        
+
+
+        </div>
+    
+        <div class="aside">
+            <img src="./images/h2img.png" alt="">
+            <h2>
+                優美的環境●愉快的渡假
+            </h2>
+            <img class="ADimg"src="./images/aside/index_2.jpg" alt="">
+            <img class="ADimg"src="./images/aside/index_3.jpg" alt="">
+            <img class="ADimg"src="./images/aside/index_1.jpg" alt="">
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p>
+        Copyright © 2021 Timothy Hotel. All rights reserved. Related images from 123RF Maintain by TS
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
